@@ -274,7 +274,7 @@ class coin extends Controller
 		$coin['coin'] = 'AMS';
 		$coin['url'] = 'https://bitcointalk.org/index.php?topic=1152947.0';
 		$coin['logo'] = 'https://files.coinmarketcap.com/static/img/coins/128x128/amsterdamcoin.png';
-		$coin['notes'] = 'Configuring Stats';
+		$coin['notes'] = 'Updating DataBase';
 		$coins[$i] = $coin;
 		$i++;
 		$coin = [];
@@ -282,7 +282,7 @@ class coin extends Controller
 		$coin['coin'] = 'vivo';
 		$coin['url'] = 'https://www.vivocrypto.com/';
 		$coin['logo'] = 'https://files.coinmarketcap.com/static/img/coins/128x128/vivo.png';
-		$coin['notes'] = 'Configuring Stats';
+        $coin['notes'] = 'Updating DataBase';
 		$coins[$i] = $coin;
 		$i++;
 
@@ -291,7 +291,7 @@ class coin extends Controller
 		$coin['coin'] = 'mrja';
 		$coin['url'] = 'https://bitcointalk.org/index.php?topic=2144531.0';
 		$coin['logo'] = 'https://files.coinmarketcap.com/static/img/coins/128x128/ganjacoin.png';
-		$coin['notes'] = 'Downloading Blockchain';
+        $coin['notes'] = 'Updating DataBase';
 		$coins[$i] = $coin;
 		$i++;
 		$coin = [];
@@ -299,7 +299,7 @@ class coin extends Controller
 		$coin['coin'] = 'BTDX';
 		$coin['url'] = 'https://bit-cloud.info/';
 		$coin['logo'] = 'https://files.coinmarketcap.com/static/img/coins/128x128/bitcloud.png';
-		$coin['notes'] = 'Downloading Blockchain';
+        $coin['notes'] = 'Updating DataBase';
 		$coins[$i] = $coin;
 		$i++;
 
@@ -308,7 +308,7 @@ class coin extends Controller
 		$coin['coin'] = 'MTNC';
 		$coin['url'] = 'https://bitcointalk.org/index.php?topic=2056867.0';
 		$coin['logo'] = 'https://files.coinmarketcap.com/static/img/coins/128x128/masternodecoin.png';
-		$coin['notes'] = 'Downloading Blockchain';
+        $coin['notes'] = 'Updating DataBase';
 		$coins[$i] = $coin;
 		$i++;
 
@@ -317,7 +317,7 @@ class coin extends Controller
 		$coin['coin'] = 'xft';
 		$coin['url'] = 'http://footycash.com/';
 		$coin['logo'] = 'https://i.imgur.com/dzOnf2S.png';
-		$coin['notes'] = 'Building Server';
+        $coin['notes'] = 'Updating DataBase';
 		$coins[$i] = $coin;
 		$i++;
 
@@ -326,7 +326,7 @@ class coin extends Controller
 		$coin['coin'] = 'meme';
 		$coin['url'] = 'https://bitcointalk.org/index.php?topic=1391598.0';
 		$coin['logo'] = 'https://files.coinmarketcap.com/static/img/coins/128x128/memetic.png';
-		$coin['notes'] = 'Wallet Keeps Locking up every 5000 blocks';
+        $coin['notes'] = 'Updating DataBase';
 		$coins[$i] = $coin;
 		$i++;
 
@@ -335,7 +335,7 @@ class coin extends Controller
 		$coin['coin'] = 'DMD';
 		$coin['url'] = 'http://bit.diamonds/';
 		$coin['logo'] = 'https://files.coinmarketcap.com/static/img/coins/128x128/diamond.png';
-		$coin['notes'] = 'Spinning Up Server';
+        $coin['notes'] = 'Updating DataBase';
 		$coins[$i] = $coin;
 		$i++;
 
@@ -345,7 +345,7 @@ class coin extends Controller
 		$coin['coin'] = 'flax';
 		$coin['url'] = 'http://flaxscript.org/';
 		$coin['logo'] = 'https://files.coinmarketcap.com/static/img/coins/128x128/flaxscript.png';
-		$coin['notes'] = 'Wallet Build Error';
+        $coin['notes'] = 'Updating DataBase';
 		$coins[$i] = $coin;
 		$i++;
 		$coin = [];
@@ -353,7 +353,7 @@ class coin extends Controller
 		$coin['coin'] = 'trc';
 		$coin['url'] = 'http://www.terracoin.info/';
 		$coin['logo'] = 'https://files.coinmarketcap.com/static/img/coins/128x128/terracoin.png';
-		$coin['notes'] = 'ONHOLD Waiting for HardFork to enable MasterNodes';
+        $coin['notes'] = 'Updating DataBase';
 		$coins[$i] = $coin;
 		$i++;
 		$coin = [];

@@ -7,7 +7,7 @@
         @if ($ag === 1)
             <div class="row">
                 @endif
-                @include('main.layout.activeGrid')
+                @include('main.layout.activeGridMaint')
                 @if($ag === 2)
 					<?php $ag = 0;?>
             </div>

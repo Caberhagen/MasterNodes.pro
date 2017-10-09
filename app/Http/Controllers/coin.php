@@ -356,6 +356,17 @@ class coin extends Controller
         $coin['notes'] = 'Updating DataBase';
 		$coins[$i] = $coin;
 		$i++;
+
+        $coin = [];
+        $coin['name'] = 'ColossusCoinXT';
+        $coin['coin'] = 'COLX';
+        $coin['url'] = 'https://colossuscoin.org/index.php/colx';
+        $coin['logo'] = 'https://files.coinmarketcap.com/static/img/coins/128x128/colossuscoinxt.png';
+        $coin['notes'] = 'Updating DataBase';
+        $coins[$i] = $coin;
+        $i++;
+
+
 		$coin = [];
 		$coin['name'] = 'PIECoin';
 		$coin['coin'] = 'PIE';
@@ -386,18 +397,6 @@ class coin extends Controller
 		);
 		$i = 0;
 		$ticker = json_decode($resCMCCORE->getBody()->getContents(), true);
-
-        $coin = [];
-        $coin['name'] = 'ColossusCoinXT';
-        $coin['coin'] = 'COLX';
-        $coin['url'] = 'https://colossuscoin.org/index.php/colx';
-        $coin['logo'] = 'https://files.coinmarketcap.com/static/img/coins/128x128/colossuscoinxt.png';
-        $coin['donate']['bitcoin'] = '1KsKEx8pAxFzh4FYzUHpchRYrNLwmDpFeB';
-        $coin['current'] = (float)($this->getBalance($coin['donate']) * $ticker['USD']['15m']);
-        $coin['need'] = 400;
-        $coin['balance'] = $coin['need'] - $coin['current'];
-        $coins[$i] = $coin;
-        $i++;
 
 		$coin = [];
 		$coin['name'] = 'Bitradio';

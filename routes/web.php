@@ -36,7 +36,7 @@ Route::group(
 	Route::get('/donate/{coin}', array('uses' => 'coin@donateCoin'))->middleware('throttle:6');
 	Route::get('/callCoinAPIS', array('uses' => 'coin@callCoinAPIS'))->middleware('throttle:2');
 //Route::get('/CallCoinMarketCap', array('uses' => 'coin@CallCoinMarketCap'));
-	Route::get('/getPrice/{coin}', array('uses' => 'coin@GetPrice'))->middleware('throttle:10');
+	Route::get('/getPrice/{coin}', array('uses' => 'coin@GetPrice'));
 //Route::get('/donateAPI', array('uses' => 'coin@donateCoinList'));
 	/*  Stats Pages */
 	Route::group(

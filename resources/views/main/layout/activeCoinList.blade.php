@@ -1,5 +1,5 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-	<?php
+    <?php
     $ag = 1;
     $total = count($coinList);
     $amount = $total / 2;?>
@@ -7,14 +7,18 @@
         @if ($ag === 1)
             <div class="row">
                 @endif
-                @include('main.layout.activeGridMaint')
+                @if (isset($one['mnpstat']) && $one['mnpstat'] === 'maint')
+                    @include('main.layout.activeGridMaint')
+                @else
+                    @include('main.layout.activeGrid')
+                @endif
                 @if($ag === 2)
-					<?php $ag = 0;?>
+                    <?php $ag = 0;?>
             </div>
         @endif
-		<?php $ag++; ?>
+        <?php $ag++; ?>
     @endforeach
-        @if (!is_int($amount))
+    @if (!is_int($amount))
 </div>
 @endif
 </div>
